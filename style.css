@@ -1,0 +1,152 @@
+/* Custom font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #aaeefc;
+    color: 	#ff4992;
+}
+
+/* Navigation links to areas of website */
+nav ul {
+    list-style-type: none;
+    background-color: #ff4992;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Main Page */
+header {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/Twilight_Miami_Skyline.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    color: white; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    color: white; 
+    font-size: 18px;
+    background-color: transparent;
+    max-width: 10000px; 
+    border: none
+}
+
+.bottom-right {
+    position: absolute; 
+    bottom: 1px; 
+    right: 10px; 
+    color: white; 
+    font-size: 10px;
+}
+
+/* Style (3 HTML tag selectors) and explore new CSS Property*/
+h1 {
+    color: 	#ff4992;
+    text-shadow: #fda4c7 1px 0 10px; /* Adds shadow to the header text */
+}
+
+h2 {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+    max-width: 600px;
+    border: 1px solid #ff4992; 
+}
+
+.h2-center {
+  margin: auto;
+} 
+
+h3 {
+    font-size: 23px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main li {
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+    max-width: 600px;
+    border: 1px solid #ff4992;
+    margin: auto;
+}
+
+/* Style Image Gallery */
+.gallery-image {
+    width: 1000px;
+    height: 700px;
+    display: block;
+    margin: 20px auto;
+}
+
+.gallery-p {
+    line-height: 1.6;
+    color: black;
+    background-color: transparent;
+    max-width: 1000px;
+    border: transparent;
+    margin: auto;
+    font-size: 12px;
+    text-align: center; 
+}
+
+/* Footer */
+footer p {
+    line-height: 1.6;
+    color: black;
+    background-color: transparent;
+    max-width: 600px;
+    border: transparent;
+    font-size: 15px;
+}
+
+/* Create and use 3 classes */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.spacing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
